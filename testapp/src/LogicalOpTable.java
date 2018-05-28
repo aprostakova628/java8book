@@ -24,5 +24,6 @@ class LogicalOpTable {
         System.out.print((p&q) + "\t" + (p|q) + "\t");
         System.out.println((p^q) + "\t" + (!p));
 
+
     }
 }
