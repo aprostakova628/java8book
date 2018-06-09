@@ -3,7 +3,7 @@ public class Help3 {
             throws java.io.IOException {
         char choice, ignore;
 
-        for (; ; ) {
+        for (; ;) {
             do {
                 System.out.println("Справка");
                 System.out.println(" 1. if");
