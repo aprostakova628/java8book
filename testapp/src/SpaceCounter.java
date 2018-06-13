@@ -1,4 +1,4 @@
-class VivodIProbely {
+class SpaceCounter {
     public static void main(String args[])
             throws java.io.IOException {
 
@@ -9,7 +9,7 @@ class VivodIProbely {
 
         do {
             ch = (char) System.in.read();
-            if (ch == 1) spaces++;
+            if (ch == ' ') spaces++;
         } while (ch != '.');
         System.out.println("Пробелы: " + spaces);
     }
